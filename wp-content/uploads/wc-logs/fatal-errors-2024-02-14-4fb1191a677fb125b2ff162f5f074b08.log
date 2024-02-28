@@ -1,0 +1,38 @@
+2024-02-14T03:56:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\plugins\wpforms-lite\includes\providers\class-constant-contact.php on line 3
+
+2024-02-14T04:04:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\themes\astra\template-parts\header\builder\mobile-header-row.php on line 8
+
+2024-02-14T04:05:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\plugins\woocommerce\src\Admin\API\Data.php on line 10
+
+2024-02-14T04:05:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\plugins\woocommerce\src\Admin\API\Options.php on line 10
+
+2024-02-14T04:05:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\plugins\woocommerce\src\Admin\API\Options.php on line 10
+
+2024-02-14T05:23:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\plugins\variation-swatches-woo\inc\swatches.php on line 23
+
+2024-02-14T05:26:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-includes\functions.php on line 6805
+
+2024-02-14T05:42:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-includes\l10n.php on line 297
+
+2024-02-14T05:42:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\plugins\wpforms-lite\vendor\composer\ClassLoader.php on line 324
+
+2024-02-14T05:42:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\plugins\wpforms-lite\includes\functions\filesystem-media.php on line 26
+
+2024-02-14T05:42:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\themes\astra\inc\compatibility\class-astra-gutenberg.php on line 199
+
+2024-02-14T05:42:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\themes\astra\inc\compatibility\woocommerce\class-astra-woocommerce.php on line 11
+
+2024-02-14T05:42:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\themes\astra\inc\extras.php on line 18
+
+2024-02-14T05:42:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\themes\astra\inc\compatibility\woocommerce\class-astra-woocommerce.php on line 11
+
+2024-02-14T05:43:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-includes\functions.php on line 4579
+
+2024-02-14T05:51:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\plugins\wpforms-lite\vendor\symfony\polyfill-iconv\bootstrap.php on line 14
+
+2024-02-14T05:52:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-includes\functions.php on line 5335
+
+2024-02-14T05:53:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\themes\astra\inc\customizer\configurations\builder\footer\configs\button-footer.php on line 12
+
+2024-02-14T05:53:51+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\plugins\elementor\modules\wp-cli\module.php on line 8
+

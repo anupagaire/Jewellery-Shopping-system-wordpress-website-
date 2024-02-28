@@ -1,0 +1,44 @@
+/**
+* Start: Separator CSS for color pallet.
+*/
+.components-circular-option-picker__option-wrapper.wcf-color-pallet-separator {
+	height: 18px;
+	width: 100%;
+	pointer-events: none;
+}
+
+.components-circular-option-picker__option-wrapper.wcf-color-pallet-separator::before {
+	display: none;
+}
+
+button.wcf-color-pallet-separator--button {
+	background: none;
+	color: rgb( 255, 255, 255 );
+	position: relative;
+	border-radius: 0;
+	height: 0;
+	padding: 0;
+	clear: both;
+	box-shadow: none;
+	width: 100%;
+	outline: none;
+}
+
+button.wcf-color-pallet-separator--button > .wcf-color-pallet-separator--heading {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	transform: translate( 0%, -50% );
+	font-size: 11px;
+	color: rgb( 30 30 30 );
+	width: 100%;
+	font-weight: 500;
+	text-align: left;
+	margin-top: 10px;
+	text-transform: uppercase;
+	pointer-events: none;
+}
+
+/**
+* End: Separator CSS for color pallet.
+*/

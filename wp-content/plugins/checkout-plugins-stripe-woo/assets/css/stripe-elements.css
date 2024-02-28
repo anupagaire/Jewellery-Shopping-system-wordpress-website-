@@ -1,0 +1,193 @@
+.cpsw-stripe-error,
+.cpsw-number-error,
+.cpsw-expiry-error,
+.cpsw_stripe_sepa_error,
+.cpsw-cvc-error,
+.cpsw_stripe_ideal_error {
+	padding-top: 3px;
+	font-weight: 500;
+	color: #f00;
+}
+
+.cpsw_stripe_icons {
+	display: inline-block;
+}
+
+.cpsw_stripe_test_description,
+.cpsw-test-description {
+	font-size: 0.9em;
+	clear: both;
+}
+
+.cpsw-expiry-wrapper {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.cpsw-cvc-wrapper {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+.cpsw-number-error {
+	margin-bottom: 0.5em;
+	display: block;
+}
+
+#cpsw-save-cards_field,
+.cpsw-save-cards {
+	margin-top: 1em;
+	padding: 3px;
+	display: block;
+}
+
+.cpsw-save-cards input {
+	margin-right: 5px !important;
+}
+
+.cpsw-stripe-elements-form {
+	display: none;
+	margin-bottom: 0.5em;
+}
+
+.cpsw-stripe-info {
+	margin-bottom: 10px;
+}
+
+.payment_method_cpsw_stripe .wc-saved-payment-methods {
+	display: none;
+}
+
+.payment-method-disabled {
+	opacity: 0.2;
+	cursor: not-allowed;
+}
+
+.cpsw_stripe_ideal_form .cpsw_stripe_ideal_select {
+	margin-top: 10px;
+}
+
+#cpsw_stripe_sepa_iban_element {
+	padding: 5px;
+}
+
+#cpsw-payment-request-button {
+	max-width: 100%;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+}
+
+.cpsw_stripe_ideal_form .cpsw_stripe_ideal_select,
+.cpsw_stripe_p24_form .cpsw_stripe_p24_select {
+	margin: 0.5em 0;
+}
+
+#cpsw-payment-request-wrapper {
+	clear: both;
+	display: none;
+}
+
+#cpsw-payment-request-wrapper.checkout.center #cpsw-payment-request-title,
+#cpsw-payment-request-wrapper.checkout.center #cpsw-payment-request-tagline,
+#cpsw-payment-request-separator.checkout.center {
+	text-align: center;
+}
+
+#cpsw-payment-request-wrapper.checkout.center div {
+	margin: 0 auto;
+}
+
+#cpsw-payment-request-wrapper.checkout.right #cpsw-payment-request-title,
+#cpsw-payment-request-wrapper.checkout.right #cpsw-payment-request-tagline,
+#cpsw-payment-request-separator.checkout.right {
+	text-align: right;
+}
+
+#cpsw-payment-request-wrapper.checkout.right #cpsw-payment-request-custom-button {
+	float: right;
+}
+
+#cpsw-payment-request-separator.checkout.left {
+	text-align: left;
+}
+
+#cpsw-payment-request-wrapper.below {
+	padding-top: 0;
+}
+
+#cpsw-payment-request-separator {
+	clear: both;
+	padding: 1em 0;
+	text-align: center;
+	display: none;
+}
+
+#cpsw-payment-request-separator.cpsw-product {
+	padding: 0.5em 0;
+}
+
+#cpsw-payment-request-wrapper.checkout #cpsw-payment-request-title {
+	margin-bottom: 0.5em;
+}
+
+#cpsw-payment-request-wrapper.checkout #cpsw-payment-request-custom-button {
+	margin-top: 5px;
+}
+
+#cpsw-payment-request-wrapper.checkout #cpsw-payment-request-tagline {
+	margin-bottom: 1em;
+}
+
+#cpsw-payment-request-wrapper.cpsw-product.above .cpsw-payment-request-button-wrapper {
+	display: block;
+	padding-top: 1.5em;
+}
+
+#cpsw-payment-request-wrapper.cpsw-product.inline {
+	display: inline-block;
+}
+
+#cpsw-payment-request-wrapper.cpsw-product #cpsw-payment-request-title,
+#cpsw-payment-request-wrapper.cart #cpsw-payment-request-title {
+	display: none;
+}
+
+#cpsw-payment-request-wrapper.cpsw-product #cpsw-payment-request-tagline,
+#cpsw-payment-request-wrapper.cart #cpsw-payment-request-tagline {
+	display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+	#cpsw-payment-request-wrapper.cpsw-product.above.sticky .cpsw-payment-request-button-wrapper {
+		padding-top: 0;
+	}
+
+	#cpsw-payment-request-wrapper.cpsw-product.sticky {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		z-index: 1000000;
+		clear: both;
+		padding: 0.5em;
+		border: none;
+		width: 100% !important;
+		margin: 0;
+		background-color: #88888880;
+	}
+
+	#cpsw-payment-request-wrapper.cpsw-product.sticky #cpsw-payment-request-separator {
+		display: none;
+	}
+
+	#cpsw-payment-request-wrapper.cpsw-product #cpsw-payment-request-title {
+		display: none;
+	}
+
+	#cpsw-payment-request-wrapper.cpsw-product #cpsw-payment-request-tagline {
+		display: none;
+	}
+}

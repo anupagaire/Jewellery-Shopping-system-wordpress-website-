@@ -1,0 +1,849 @@
+/**
+* **************
+* Login & Coupon Field Layout
+* **************
+*/
+/* Editor CSS */
+.elementor-editor-active .wcf-optin-form .woocommerce #order_review #payment #place_order {
+	pointer-events: none !important;
+}
+
+.cartflows-container .wcf-optin-form,
+.cartflows-container .wcf-optin-form * {
+	box-sizing: border-box;
+}
+
+.wcf-optin-form .wc-backward {
+	display: none !important;
+}
+
+.wcf-optin-form .woocommerce form .form-row-first,
+.wcf-optin-form .woocommerce form .form-row-last {
+	width: 50%;
+	display: block;
+}
+
+.wcf-optin-form .woocommerce form .form-row-full {
+	width: 100%;
+	clear: both;
+}
+
+.wcf-optin-form form .form-row-wide {
+	width: 100%;
+}
+
+/* To test divi and all */
+.wcf-optin-form .woocommerce form .form-row-first,
+.woocommerce-page form .form-row-first {
+	float: right;
+	clear: right;
+}
+
+.wcf-optin-form .woocommerce form .form-row-last,
+.woocommerce-page form .form-row-last {
+	float: left;
+	clear: left;
+}
+
+.wcf-optin-form .woocommerce form .form-row .required {
+	color: #f00;
+	font-weight: 700;
+	border: 0 !important;
+	text-decoration: none;
+}
+
+/* To test divi and all */
+.wcf-optin-form form .form-row-first.form-row-one {
+	clear: both;
+}
+
+.wcf-optin-form .woocommerce form.woocommerce-form-login {
+	display: none;
+}
+
+/**
+* **************
+* Common Classes
+* **************
+*/
+
+.wcf-optin-form .woocommerce .blockUI.blockOverlay {
+	font-size: 15px;
+}
+
+.wcf-optin-form .woocommerce form .form-row.woocommerce-invalid .select2-container,
+.wcf-optin-form .woocommerce form .form-row.woocommerce-invalid input.input-text,
+.wcf-optin-form .woocommerce form .form-row.woocommerce-invalid select {
+	border-width: 1px;
+	border-color: #e2401c;
+}
+
+.wcf-optin-form .woocommerce form .form-row.woocommerce-validated .select2-container,
+.wcf-optin-form .woocommerce form .form-row.woocommerce-validated input.input-text,
+.wcf-optin-form .woocommerce form .form-row.woocommerce-validated select {
+	border-width: 1px;
+}
+
+.wcf-optin-form .select2-container--default.field-required .select2-selection--single,
+.wcf-optin-form .woocommerce form .form-row input.input-text.field-required,
+.wcf-optin-form .woocommerce form .form-row textarea.input-text.field-required,
+.wcf-optin-form .woocommerce #order_review .input-text.field-required {
+	border-color: #e2401c;
+}
+
+.wcf-optin-form .woocommerce form .form-row input.field-validated {
+	border-right-width: 2px;
+	border-right-color: #69bf29;
+}
+
+/**
+* ************
+* Main Layout
+* ************
+*/
+
+/**
+* ************************
+* Radio Button & Checkbox
+* ************************
+*/
+
+.wcf-optin-form .woocommerce #payment [type="radio"]:checked + label,
+.wcf-optin-form .woocommerce #payment [type="radio"]:not( :checked ) + label {
+	padding: 0;
+}
+
+.wcf-optin-form .woocommerce #payment input[type="radio"] {
+	border-radius: 50%;
+	margin-left: 4px;
+	line-height: 10px;
+}
+
+.wcf-optin-form .woocommerce .woocommerce-billing-fields [type="checkbox"]:checked::before,
+.wcf-optin-form .woocommerce #payment input[type="checkbox"]:checked::before,
+.wcf-optin-form .woocommerce .woocommerce-shipping-fields [type="checkbox"]:checked::before,
+.wcf-optin-form .woocommerce .woocommerce-account-fields input[type="checkbox"]:checked::before {
+	content: "\e600";
+	margin: 0;
+	color: #f16334;
+}
+
+.wcf-optin-form .woocommerce .woocommerce-billing-fields [type="checkbox"],
+.wcf-optin-form .woocommerce #payment input[type="checkbox"],
+.wcf-optin-form .woocommerce .woocommerce-shipping-fields [type="checkbox"],
+.wcf-optin-form .woocommerce #payment input[type="radio"],
+.wcf-optin-form .woocommerce .woocommerce-account-fields input[type="checkbox"] {
+	border: 1px solid #b4b9be;
+	background: #fff;
+	color: #555;
+	clear: none;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 0;
+	height: 16px;
+	margin: -4px 0 0 4px;
+	outline: 0;
+	padding: 0 !important;
+	text-align: center;
+	vertical-align: middle;
+	width: 16px;
+	min-width: 16px;
+	-webkit-appearance: none;
+	box-shadow: inset 0 1px 2px rgba( 0, 0, 0, 0.1 );
+	transition: 0.05s border-color ease-in-out;
+}
+
+.wcf-optin-form .woocommerce .woocommerce-billing-fields [type="checkbox"]:focus,
+.wcf-optin-form .woocommerce #payment input[type="checkbox"]:focus,
+.wcf-optin-form .woocommerce .woocommerce-shipping-fields [type="checkbox"]:focus,
+.wcf-optin-form .woocommerce #payment input[type="radio"]:focus,
+.wcf-optin-form .woocommerce .woocommerce-account-fields input[type="checkbox"]:focus {
+	border-color: #f16334;
+	box-shadow: 0 0 2px rgba( 241, 99, 52, 0.8 );
+}
+
+.wcf-optin-form .woocommerce #payment input[type="radio"]:checked::before {
+	background-color: #f16334;
+	border-radius: 50px;
+	content: "\2022";
+	font-size: 24px;
+	height: 6px;
+	line-height: 16px;
+	margin: 4px;
+	text-indent: -9999px;
+	width: 6px;
+}
+.wcf-optin-form .woocommerce .woocommerce-billing-fields [type="checkbox"]:checked::before,
+.wcf-optin-form .woocommerce #payment input[type="checkbox"]:checked::before,
+.wcf-optin-form .woocommerce .woocommerce-shipping-fields [type="checkbox"]:checked::before,
+.wcf-optin-form .woocommerce #payment input[type="radio"]:checked::before,
+.wcf-optin-form .woocommerce .woocommerce-account-fields input[type="checkbox"]::before {
+	display: inline-block;
+	float: right;
+	font: normal normal 400 15px/1 cartflows-icon;
+	speak: none;
+	vertical-align: middle;
+	width: 6px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wcf-optin-form .woocommerce-checkout #payment ul.payment_methods li input[type="checkbox"] {
+	min-width: 16px;
+}
+
+.wcf-optin-form .woocommerce .col2-set .col-1,
+.wcf-optin-form .woocommerce .col2-set .col-2,
+.wcf-optin-form .woocommerce .wcf-col2-set .wcf-col-1,
+.wcf-optin-form .woocommerce .wcf-col2-set .wcf-col-2 {
+	float: none;
+	width: 100%;
+	max-width: 100%;
+	padding: 0;
+	border-radius: 0;
+	border: none;
+	border-color: none;
+	margin-bottom: 0;
+}
+
+.wcf-optin-form .woocommerce-additional-fields > h3,
+.wcf-optin-form .woocommerce-billing-fields > h3,
+.wcf-optin-form #order_review_heading,
+.wcf-optin-form .woocommerce #ship-to-different-address {
+	display: none;
+}
+
+.wcf-optin-form .woocommerce-checkout #payment {
+	background: unset;
+	border-radius: 0;
+}
+
+.wcf-optin-form .woocommerce-checkout #payment .form-row {
+	margin: 0;
+	padding: 0;
+}
+
+.wcf-optin-form .woocommerce-checkout #payment .form-row label.checkbox {
+	display: block;
+	margin-bottom: 1.1em;
+}
+
+.wcf-optin-form .woocommerce-checkout #payment .payment_method_paypal .about_paypal {
+	float: none;
+	margin-right: 10px;
+}
+
+.wcf-optin-form .woocommerce-checkout #payment div.payment_box .form-row {
+	margin: 0 0 0.5em;
+}
+
+.wcf-optin-form .woocommerce-checkout #payment fieldset .form-row .wcf-optin-form .woocommerce-checkout #payment fieldset p {
+	margin-bottom: 10px;
+}
+
+.wcf-optin-form .woocommerce-checkout #payment div.payment_box {
+	background-color: #eaeaea;
+	font-family: inherit;
+	font-weight: inherit;
+	margin-bottom: 0.5em;
+}
+
+.wcf-optin-form #add_payment_method #payment div.payment_box::before,
+.wcf-optin-form .woocommerce-cart #payment div.payment_box::before,
+.wcf-optin-form .woocommerce-checkout #payment div.payment_box::before {
+	content: "";
+	display: block;
+	border: 1em solid;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	border-bottom-color: #eaeaea;
+	position: absolute;
+	top: -0.75em;
+	right: 0;
+	margin: -1em 2em 0 0;
+}
+
+/* Fields */
+.wcf-optin-form .select2-container--default .select2-selection--single {
+	display: block;
+	width: 100%;
+	min-height: 34px;
+	height: auto;
+	padding: 11px 12px;
+	font-size: 14px;
+	line-height: 1.42857143 !important;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid;
+	border-color: #d4d4d4;
+	border-radius: 3px;
+	box-shadow: none;
+	outline: none;
+}
+
+.wcf-optin-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+	color: #666;
+	line-height: 26px;
+	min-height: 26px;
+	overflow: visible;
+	padding-right: 0;
+}
+
+.wcf-optin-form .select2-results__option[aria-selected],
+.select2-results__option[data-selected] {
+	font-size: 14px;
+}
+
+.wcf-optin-form .select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 100%;
+}
+
+.select2-dropdown {
+	border: 1px solid #d4d4d4;
+}
+
+.wcf-optin-form .woocommerce form .form-row input.input-text,
+.wcf-optin-form .woocommerce form .form-row textarea,
+.wcf-optin-form .woocommerce form .form-row select,
+.wcf-optin-form .woocommerce #order_review .input-text {
+	display: block;
+	width: 100%;
+	min-height: 34px;
+	padding: 11px 12px;
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: 14px;
+	line-height: 1.42857143 !important;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid;
+	border-color: #d4d4d4;
+	border-radius: 3px;
+	box-shadow: none;
+	height: auto;
+}
+
+.wcf-optin-form #order_review {
+	padding: 0;
+	width: 100%;
+}
+
+.wcf-optin-form input[type="text"]:focus,
+.wcf-optin-form input[type="email"]:focus,
+.wcf-optin-form input[type="password"]:focus,
+.wcf-optin-form input[type="tel"]:focus,
+.wcf-optin-form textarea:focus,
+.wcf-optin-form .select2-container--open {
+	border-color: #b3b3b3;
+	box-shadow: none;
+	outline: none;
+}
+
+.wcf-optin-form button:focus {
+	outline: none;
+	outline-color: none;
+	outline-style: none;
+	outline-width: none;
+}
+
+.wcf-optin-form .woocommerce form.woocommerce-form-login .form-row button,
+.wcf-optin-form form.checkout_coupon .button {
+	display: block;
+	clear: both;
+	border: none;
+	font-size: 15px;
+	font-family: inherit;
+	font-weight: inherit;
+	background-color: #f16334;
+	line-height: 9px;
+	padding: 18px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.wcf-optin-form .woocommerce #order_review #payment button {
+	float: none;
+	margin: 0 auto;
+	display: block;
+}
+
+.wcf-optin-form .woocommerce #order_review button {
+	border: 1px solid;
+	border-color: #f16334;
+	background-color: #f16334;
+	font-family: inherit;
+	font-weight: inherit;
+	letter-spacing: 0.5px;
+	width: 100%;
+	padding: 16px 24px;
+	font-size: 16px;
+	line-height: 1.5;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.wcf-optin-form .woocommerce #order_review button.wcf-btn-small {
+	padding: 8px 6px;
+	background-color: #c8c8c8;
+	border: 1px #c8c8c8 solid;
+}
+
+.wcf-optin-form .woocommerce #order_review button.wcf-btn-small:hover {
+	border-color: #f16334;
+	background-color: #f16334;
+}
+.wcf-optin-form .woocommerce #payment #place_order:hover {
+	background-color: #f16334;
+	border-color: #f16334;
+	color: #fff;
+}
+
+/**
+* ***********************
+* New checkout style
+* ***********************
+*/
+
+.wcf-optin-form .woocommerce-form-coupon-toggle,
+.wcf-optin-form .woocommerce-additional-fields,
+.wcf-optin-form table.shop_table.woocommerce-checkout-review-order-table {
+	display: none !important;
+}
+
+.wcf-optin-form .woocommerce-checkout {
+	display: inline-block;
+	text-align: inherit;
+	width: 100%;
+}
+
+.wcf-optin-form .woocommerce-checkout .wcf-col2-set {
+	display: block;
+	width: 100%;
+	float: none;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+.wcf-optin-form .woocommerce-checkout .wcf-col2-set .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper,
+.wcf-optin-form .woocommerce-checkout .wcf-col2-set .woocommerce-shipping-fields .woocommerce-shipping-fields__field-wrapper {
+	margin: 0 -7px;
+	-js-display: flex;
+	display: flex;
+	display: -webkit-flex; /* Safari 6.1+, firefox, chrome */
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap; /* Safari 6.1+, firefox, chrome*/
+}
+
+.wcf-optin-form .woocommerce-checkout .wcf-col2-set .woocommerce-additional-fields .woocommerce-additional-fields__field-wrapper {
+	margin: 0 -7px;
+}
+
+.wcf-optin-form .woocommerce form .form-row {
+	display: block;
+	margin-bottom: 1.1em;
+	padding: 3px 7px;
+	position: relative;
+}
+
+.wcf-optin-form .woocommerce form .woocommerce-account-fields {
+	display: none;
+}
+
+.wcf-optin-form .woocommerce form .woocommerce-account-fields .form-row {
+	padding: 0;
+}
+
+.wcf-optin-form .woocommerce form.woocommerce-form-login .form-row label,
+.wcf-optin-form .woocommerce-checkout .form-row label {
+	font-size: 13px;
+	line-height: 1em;
+	letter-spacing: 0.3px;
+	font-family: inherit;
+	font-weight: inherit;
+	margin-bottom: 8px;
+}
+
+.wcf-optin-form .woocommerce .woocommerce-billing-fields label,
+.wcf-optin-form .woocommerce .woocommerce-shipping-fields label {
+	display: inherit;
+}
+
+.wcf-optin-form .woocommerce .wcf-input-radio-field-wrapper .woocommerce-input-wrapper {
+	display: block;
+}
+
+.wcf-optin-form .woocommerce .wcf-input-radio-field-wrapper input[type="radio"].input-radio {
+	float: right;
+	margin: 0 0 0 10px;
+	cursor: pointer;
+}
+
+.wcf-optin-form .woocommerce .wcf-input-radio-field-wrapper label.radio.input-radio {
+	margin: 15px 0;
+	cursor: pointer;
+}
+
+.wcf-optin-form .woocommerce .woocommerce-terms-and-conditions-wrapper {
+	display: none;
+}
+
+.wcf-optin-form .woocommerce a {
+	color: #f16334;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.wcf-optin-form .woocommerce .woocommerce-info,
+.wcf-optin-form .woocommerce .woocommerce-error,
+.wcf-optin-form .woocommerce .woocommerce-message,
+.wcf-optin-form .woocommerce .woocommerce-notices-wrapper .woocommerce-message,
+.wcf-optin-form .woocommerce .woocommerce-NoticeGroup .woocommerce-message {
+	padding: 1em 2em 0.4em 2em;
+	border-top: none;
+	background-color: inherit;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: right;
+	margin: 0;
+}
+
+.wcf-optin-form .woocommerce-info::before,
+.wcf-optin-form .woocommerce-message::before {
+	right: 0.1em;
+	color: #f16334;
+}
+
+.wcf-optin-form .woocommerce .woocommerce-error,
+.wcf-optin-form .woocommerce .woocommerce-NoticeGroup .woocommerce-error,
+.wcf-optin-form .woocommerce .woocommerce-notices-wrapper .woocommerce-error {
+	background-color: #fff6f6;
+	border: dashed 1px #a00;
+	padding: 25px 25px 20px;
+	color: #a00;
+	margin: 1rem 0 1rem;
+	font-size: 14px;
+	width: 100%;
+}
+
+.wcf-optin-form .woocommerce .woocommerce-error::before {
+	content: "";
+}
+
+.wcf-optin-form .woocommerce-checkout #payment ul.payment_methods li:not( .woocommerce-notice )::before {
+	display: inline;
+}
+
+.wcf-optin-form .woocommerce .woocommerce-notices-wrapper .woocommerce-message {
+	margin: 1em 0 1em;
+}
+
+.wcf-optin-form .woocommerce .woocommerce-error li {
+	list-style: disc inside !important;
+	margin: 0 0 8px;
+}
+
+.wcf-optin-form .woocommerce .woocommerce-error li strong {
+	font-weight: 400;
+}
+
+.wcf-optin-form .woocommerce form.checkout_coupon {
+	border: 1px solid #d3ced2;
+	padding: 30px 20px 20px;
+	margin: 2em 0;
+	text-align: right;
+	border-radius: 5px;
+}
+
+.wcf-optin-form .woocommerce .checkout_coupon p {
+	font-size: 14px;
+}
+
+.wcf-optin-form .woocommerce .checkout_coupon p {
+	font-family: inherit;
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+/**
+* **********************
+* One Column Layout
+* **********************
+*/
+
+.wcf-optin-form-one-column {
+	background: inherit;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.wcf-optin-form-one-column .woocommerce .col2-set .col-1,
+.wcf-optin-form-one-column .woocommerce .col2-set .col-2,
+.wcf-optin-form-one-column .woocommerce-checkout .shop_table,
+.wcf-optin-form-one-column .woocommerce-checkout .wcf-qty-options,
+.wcf-optin-form-one-column .woocommerce-checkout #order_review_heading,
+.wcf-optin-form-one-column .woocommerce-checkout #your_products_heading,
+.wcf-optin-form-one-column .woocommerce-checkout #payment,
+.wcf-optin-form-one-column .woocommerce form.checkout_coupon,
+.wcf-optin-form-one-column .woocommerce .wcf-order-wrap {
+	width: 100%;
+}
+
+.wcf-optin-form-one-column input[type="text"],
+.wcf-optin-form-one-column input[type="email"],
+.wcf-optin-form-one-column input[type="password"],
+.wcf-optin-form-one-column input[type="tel"],
+.wcf-optin-form-one-column textarea,
+.wcf-optin-form-one-column select {
+	display: block;
+	width: 100%;
+	min-height: 40px;
+	padding: 11px 12px;
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #d4d4d4;
+	border-radius: 3px;
+	box-shadow: none;
+}
+
+.wcf-optin-form-one-column .woocommerce-checkout #order_review_heading,
+.wcf-optin-form-one-column .woocommerce-checkout #your_products_heading {
+	margin: 20px 0 0;
+}
+
+.wcf-optin-form-one-column .woocommerce-checkout #order_review {
+	width: 100%;
+}
+
+@media only screen and ( max-width: 768px ) {
+	.wcf-optin-form form.checkout_coupon .button {
+		font-size: 12px;
+	}
+
+	/* Added for pro support */
+	.wcf-optin-form .woocommerce .col2-set .col-1,
+	.wcf-optin-form .woocommerce .wcf-col2-set .wcf-col-1,
+	.wcf-optin-form .woocommerce .wcf-order-wrap {
+		padding: 15px 0;
+	}
+
+	.wcf-optin-form .woocommerce .col2-set .col-2,
+	.wcf-optin-form .woocommerce .wcf-col2-set .wcf-col-2 {
+		padding: 0;
+	}
+
+	.wcf-optin-form .woocommerce form .form-row-first,
+	.wcf-optin-form .woocommerce form .form-row-last {
+		width: 100%;
+	}
+
+	.wcf-optin-form .woocommerce-additional-fields > h3,
+	.wcf-optin-form .woocommerce-billing-fields > h3,
+	.wcf-optin-form #order_review_heading,
+	.wcf-optin-form .woocommerce #ship-to-different-address {
+		font-size: 1em;
+	}
+}
+
+/**
+* **********************
+* Divi Css Overrite
+* **********************
+*/
+
+#et-info-email::before,
+#et-info-phone::before,
+#et_search_icon::before,
+.comment-reply-link::after,
+.et-cart-info span::before,
+.et-pb-arrow-next::before,
+.et-pb-arrow-prev::before,
+.et-social-icon a::before,
+.et_audio_container .mejs-playpause-button button::before,
+.et_audio_container .mejs-volume-button button::before,
+.et_overlay::before,
+.et_password_protected_form .et_submit_button::after,
+.et_pb_button::after,
+.et_pb_contact_reset::after,
+.et_pb_contact_submit::after,
+.et_pb_font_icon::before,
+.et_pb_newsletter_button::after,
+.et_pb_pricing_table_button::after,
+.et_pb_promo_button::after,
+.et_pb_social_icon a.icon::before,
+.et_pb_testimonial::before,
+.et_pb_toggle_title::before,
+.form-submit .et_pb_button::after,
+.mobile_menu_bar::before,
+.woocommerce #content input.button.alt::after,
+.woocommerce #content input.button::after,
+.woocommerce #respond input#submit.alt::after,
+.woocommerce #respond input#submit::after,
+.woocommerce a.button.alt::after,
+.woocommerce button.button.alt::after,
+.woocommerce button.button::after,
+.woocommerce button.single_add_to_cart_button.button::after,
+.woocommerce input.button.alt::after,
+.woocommerce input.button::after,
+.woocommerce-page #content input.button.alt::after,
+.woocommerce-page #content input.button::after,
+.woocommerce-page #respond input#submit.alt::after,
+.woocommerce-page #respond input#submit::after,
+.woocommerce-page a.button.alt::after,
+.woocommerce-page a.button::after,
+.woocommerce-page button.button.alt::after,
+.woocommerce-page button.button::after,
+.woocommerce-page input.button.alt::after,
+.woocommerce-page input.button::after,
+a.et_pb_more_button::after {
+	text-shadow: 0 0;
+	font-family: none;
+	font-weight: 400;
+	font-style: normal;
+	font-variant: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1;
+	text-transform: none;
+	speak: none;
+}
+
+.comment-reply-link:hover::after,
+.woocommerce #content input.button.alt:hover::after,
+.woocommerce #content input.button:hover::after,
+.woocommerce #respond input#submit.alt:hover::after,
+.woocommerce #respond input#submit:hover::after,
+.woocommerce a.button.alt:hover::after,
+.woocommerce a.button:hover::after,
+.woocommerce button.button.alt:hover::after,
+.woocommerce button.button:hover::after,
+.woocommerce input.button.alt:hover::after,
+.woocommerce input.button:hover::after {
+	opacity: 0;
+}
+
+/**
+* **************************
+* Thrive Compatibility css
+* **************************
+*/
+
+.thrv_wrapper .wcf-optin-form div {
+	box-sizing: border-box;
+}
+
+/**
+* ***********************************
+* Custom Width Classes
+* ***********************************
+*/
+
+.wcf-optin-form .woocommerce form .wcf-column-33 {
+	width: 33.33%;
+}
+.wcf-optin-form .woocommerce form .wcf-column-50 {
+	width: 50%;
+}
+.wcf-optin-form .woocommerce form .wcf-column-100 {
+	width: 100%;
+	margin-top: 0 !important;
+}
+
+/**
+* ********************
+* Fields Skins
+* ********************
+*/
+
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .woocommerce-billing-fields .form-row label:not( .checkbox ),
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .woocommerce-shipping-fields .form-row label,
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .woocommerce-additional-fields .form-row label,
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .woocommerce-account-fields .form-row label {
+	position: absolute;
+	z-index: 999;
+	margin-top: 19px;
+	margin-right: 15px;
+	transition: all 0.235s ease;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .woocommerce-billing-fields .form-row.wcf-anim-label label,
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .woocommerce-shipping-fields .form-row.wcf-anim-label label,
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .woocommerce-additional-fields .form-row.wcf-anim-label label,
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .woocommerce-account-fields .form-row.wcf-anim-label label {
+	margin-top: 8px;
+	font-size: 12px;
+}
+
+/* Compatibility for the Astra Labels as placeholder */
+.ast-checkout-labels-as-placeholders .wcf-optin-form form #customer_details .form-row label {
+	opacity: 1;
+	position: relative;
+	padding: 0;
+	margin: 0 0 8px 0;
+	line-height: 1em;
+}
+
+.ast-checkout-labels-as-placeholders .wcf-optin-form.wcf-field-floating-labels form #customer_details .form-row label {
+	position: absolute;
+	margin-top: 19px;
+	padding: 0 1.02em;
+	opacity: 1;
+}
+
+.ast-checkout-labels-as-placeholders .wcf-optin-form.wcf-field-floating-labels form #customer_details .form-row.wcf-anim-label label {
+	margin-top: 8px;
+	font-size: 12px;
+}
+
+.ast-checkout-labels-as-placeholders .wcf-optin-form.wcf-field-floating-labels form #customer_details .woocommerce-account-fields .form-row label.woocommerce-form__label-for-checkbox {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+/* Compatibility for the Astra Labels as placeholder */
+
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .form-row input[type="text"],
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .form-row input[type="email"],
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .form-row input[type="password"],
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .form-row input[type="tel"],
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .form-row textarea,
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .form-row select,
+.wcf-optin-form.wcf-field-floating-labels .select2-container--default .select2-selection--single {
+	padding: 25px 12px 5px;
+}
+
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .woocommerce-billing-fields .form-row.wcf-anim-label-fix label,
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .woocommerce-shipping-fields .form-row.wcf-anim-label-fix label,
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .woocommerce-account-fields .form-row.wcf-anim-label-fix label {
+	position: relative;
+	margin: 0;
+}
+
+.wcf-optin-form.wcf-field-floating-labels .woocommerce .woocommerce-account-fields .form-row label.woocommerce-form__label-for-checkbox {
+	position: relative;
+	margin: 0;
+}
+
+/**
+* ****************************************
+* Mobile css for two step navigation Start
+* ****************************************
+*/
+@media only screen and ( max-width: 768px ) {
+	.wcf-optin-form .woocommerce form .wcf-column-33,
+	.wcf-optin-form .woocommerce form .wcf-column-50,
+	.wcf-optin-form .woocommerce form .wcf-column-100 {
+		width: 100%;
+	}
+}

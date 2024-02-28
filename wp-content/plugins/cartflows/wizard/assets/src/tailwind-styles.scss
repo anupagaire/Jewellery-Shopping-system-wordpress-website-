@@ -1,0 +1,108 @@
+@import url( "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" );
+
+* {
+	font-family: inter, sans-serif;
+}
+
+#wcf-confetti-wrapper {
+	pointer-events: none;
+	position: fixed;
+	z-index: 2;
+	inset: 0;
+}
+
+@tailwind base;
+@tailwind components;
+
+.wcf-container {
+	@apply max-w-7xl mx-auto  p-4;
+
+	.wcf-row {
+		@apply mx-auto max-w-md;
+	}
+}
+
+.wcf-import-error-wrapper {
+	a {
+		@apply inline-block py-1.5 px-2.5 text-xs text-white bg-red-500 mt-1 rounded mt-2.5;
+
+		&:hover {
+			@apply text-white bg-red-600;
+		}
+	}
+}
+.wcf-wizard--button {
+	@apply rounded border border-transparent px-5 py-2.5 bg-primary-500 cursor-pointer text-[15px] justify-center text-center font-medium text-white shadow flex-shrink-0 flex items-center;
+
+	&:hover {
+		@apply bg-primary-600;
+	}
+	&:focus {
+		@apply outline-none ring-2 ring-white ring-offset-2 ring-offset-orange-400;
+	}
+	&.is-loading {
+		background-size: 100px 100%;
+		background-image: linear-gradient( -45deg, #ea580c 33%, #c2410c 33%, #c2410c 70%, #ea580c 70% );
+		border-color: #ea580c;
+		animation: scrolling-bar-animation 2500ms infinite linear;
+
+		@keyframes scrolling-bar-animation {
+			0% {
+				background-position: 200px 0;
+			}
+		}
+	}
+}
+
+.wcf-step-heading {
+	@apply text-center text-4xl font-semibold text-slate-800;
+}
+
+.wcf-sidebar--header {
+	@apply px-6 py-3 bg-white flex justify-between items-center border-b border-gray-200;
+}
+
+.wcf-inline-tooltip {
+	@apply after:absolute after:invisible after:bg-gray-700 after:content-[attr(data-tooltip)] after:py-1 after:px-2 after:rounded after:text-[11px] after:text-white after:whitespace-nowrap after:top-12 after:-left-1.5 after:z-10;
+
+	&:hover {
+		@apply hover:after:visible  group-hover:after:block;
+	}
+}
+
+@screen sm {
+	.wcf-container {
+		@apply p-4;
+
+		.wcf-row {
+			@apply max-w-4xl;
+		}
+
+		.wcf-pb-list-wrapper {
+			@apply flex;
+		}
+	}
+
+	.wcf-wizard--button {
+		@apply px-8;
+	}
+}
+
+@screen lg {
+	.wcf-row {
+		@apply max-w-4xl;
+	}
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+}
+::-webkit-scrollbar-thumb {
+	background: #d5d6d7;
+	border-radius: 0;
+}
+::-webkit-scrollbar-track {
+	border-radius: 0;
+}
+
+@tailwind utilities;

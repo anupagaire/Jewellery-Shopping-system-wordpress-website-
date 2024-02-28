@@ -1,0 +1,155 @@
+/*
+* Astra's normalize css
+*/
+
+/* Two Column CSS */
+
+.cartflows_step-template-default.woocommerce.woocommerce-checkout #customer_details h3 {
+	font-size: 20px;
+	padding: 0;
+	margin: 0 0 25px 0;
+	border-bottom: none;
+}
+
+.cartflows_step-template-default.woocommerce #customer_details,
+.woocommerce .woocommerce table.shop_table {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout form .form-row:last-child,
+.woocommerce.woocommerce-checkout form .form-row:last-child {
+	margin-bottom: 1.1em;
+}
+
+.cartflows_step-template-default.woocommerce.woocommerce-checkout form #order_review_heading {
+	font-size: 20px;
+	margin: 20px 0 0;
+	padding: 3px 3px 20px;
+	width: 100%;
+	border-width: 0;
+	border-style: none;
+	border-color: unset;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout form #order_review,
+.cartflows_step-template-default.woocommerce.woocommerce-checkout form #order_review {
+	padding: 3px;
+	border-width: 0;
+	border-style: none;
+	border-color: unset;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout table.shop_table th,
+.cartflows_step-template-default.woocommerce.woocommerce-checkout table.shop_table th {
+	padding: 0.6em 0;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout table.shop_table td,
+.cartflows_step-template-default.woocommerce.woocommerce-checkout table.shop_table td {
+	padding: 0.6em 0;
+	border-color: unset;
+	opacity: 1;
+}
+
+.cartflows_step-template-default.woocommerce table.shop_table .woocommerce-Price-amount,
+.cartflows_step-template-default.woocommerce-page table.shop_table .woocommerce-Price-amount {
+	font-weight: inherit;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout form #order_review td,
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout form #order_review th,
+.cartflows_step-template-default.woocommerce.woocommerce-checkout form #order_review td,
+.cartflows_step-template-default.woocommerce.woocommerce-checkout form #order_review th {
+	border-top: none;
+	border-right: 0;
+	padding-left: 0;
+	border-color: #ccc;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout form #order_review td:nth-child( 2 ) {
+	padding-left: 10px;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout form #order_review tfoot tr.order-total:not( .recurring-total ) th,
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout form #order_review tfoot tr.order-total:not( .recurring-total ) td {
+	font-weight: 600;
+	border-top: 1px dashed #ccc;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout #payment ul.payment_methods,
+.cartflows_step-template-default.woocommerce.woocommerce-checkout #payment ul.payment_methods {
+	margin-bottom: 0;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout #payment div.form-row,
+.cartflows_step-template-default.woocommerce.woocommerce-checkout #payment div.form-row {
+	padding: 0;
+	margin: 0;
+}
+
+/* Two Column CSS */
+
+/* One Column CSS */
+.cartflows_step-template-default.woocommerce .wcf-embed-checkout-form-one-column #customer_details,
+.cartflows_step-template-default.woocommerce .wcf-embed-checkout-form-one-column .woocommerce table.shop_table {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+/* One Column CSS */
+
+/* Modern Checkout Style CSS */
+.cartflows_step-template-default.woocommerce.woocommerce-checkout .wcf-embed-checkout-form-modern-checkout #customer_details h3 {
+	font-size: 22px;
+	font-weight: 500;
+	padding: 0;
+	margin: 20px 0 20px;
+}
+
+.cartflows_step-template-default.woocommerce-checkout .wcf-embed-checkout-form-modern-checkout .wcf-payment-option-heading h3 {
+	margin-top: 0;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout #ship-to-different-address {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout .wcf-embed-checkout-form-modern-checkout form .woocommerce-billing-fields-custom .form-row,
+.cartflows_step-template-default .wcf-embed-checkout-form-modern-checkout .woocommerce #customer_details {
+	margin-bottom: 0;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout #order_review table.shop_table th.product-name,
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout #order_review table.shop_table th.product-total {
+	padding: 1em 1.2em 1em 1.2em;
+	color: #555;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout #order_review table.shop_table td,
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout #order_review table.shop_table th,
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout #order_review table.shop_table td dl dt,
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout #order_review table.shop_table td dl dd {
+	background-color: transparent;
+	border: none;
+	color: #555;
+	padding: 1.5em 1.2em 1.5em 1.2em;
+	line-height: 1.4em;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout #order_review table.shop_table tfoot tr.order-total:not( .recurring-total ) th,
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout #order_review table.shop_table tfoot tr.order-total:not( .recurring-total ) td {
+	border-top: 1px solid #e5e7eb;
+	font-size: large;
+	padding: 1em 1em 1em 1.2em;
+}
+
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout table.shop_table td,
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout table.shop_table th,
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout table.shop_table td dl dt,
+.cartflows_step-template-default.woocommerce-page.woocommerce-checkout .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout table.shop_table td dl dd {
+	padding: 1.5em 1.2em 1.5em 1.2em;
+}
+/* Modern Checkout Style CSS */

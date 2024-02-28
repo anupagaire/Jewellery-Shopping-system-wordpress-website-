@@ -1,0 +1,128 @@
+/*
+* Admin Style
+*/
+
+.form_overlay {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.form-wc-wc_cpsw_connect_btn fieldset {
+	margin: 20px 0 20px 0;
+}
+
+.form-wc-wc_cpsw_connect_btn img {
+	margin: 5px 10px 0 10px;
+	width: 20px;
+	float: left;
+}
+
+.form-wc-wc_cpsw_connect_btn .cpsw_connect_btn,
+.form-wc-account_id .cpsw_connect_btn {
+	background: #6772e5;
+	display: inline-block;
+	height: 38px;
+	text-decoration: none;
+	width: 240px;
+
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+
+	-webkit-font-smoothing: antialiased;
+}
+
+.form-wc-account_id .cpsw_connect_btn {
+	margin: 10px;
+}
+
+.form-wc-wc_cpsw_connect_btn .cpsw_connect_btn:hover {
+	background: #3f4ddf;
+}
+
+.form-wc-wc_cpsw_connect_btn .cpsw_connect_btn span,
+.form-wc-account_id .cpsw_connect_btn span {
+	color: #fff;
+	display: block;
+	font-family: sohne-var, "Helvetica Neue", Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 14px;
+	padding: 11px 0 0 65px;
+	position: relative;
+	text-align: left;
+}
+
+.form-wc-wc_cpsw_connect_btn .cpsw_connect_btn span::before,
+.form-wc-account_id .cpsw_connect_btn span::before {
+	background-repeat: no-repeat;
+	content: "";
+	height: 20px;
+	left: 16%;
+	position: absolute;
+	top: 30%;
+	width: 49.58px;
+	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 468 222.5' style='enable-background:new 0 0 468 222.5;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill-rule:evenodd;clip-rule:evenodd;fill:%23FFFFFF;%7D%0A%3C/style%3E%3Cg%3E%3Cpath class='st0' d='M6.796 7.639c0-1.03.845-1.427 2.245-1.427 2.008 0 4.544.608 6.552 1.691V1.695C13.4.823 11.234.479 9.041.479 3.678.48.111 3.28.111 7.956c0 7.292 10.04 6.13 10.04 9.273 0 1.215-1.057 1.611-2.536 1.611-2.193 0-4.993-.898-7.213-2.113v6.288a18.315 18.315 0 007.213 1.506c5.495 0 9.273-2.722 9.273-7.45-.027-7.873-10.092-6.473-10.092-9.432z'/%3E%3Cpath class='st0' d='M6.796 7.639c0-1.03.845-1.427 2.245-1.427 2.008 0 4.544.608 6.552 1.691V1.695C13.4.823 11.234.479 9.041.479 3.678.48.111 3.28.111 7.956c0 7.292 10.04 6.13 10.04 9.273 0 1.215-1.057 1.611-2.536 1.611-2.193 0-4.993-.898-7.213-2.113v6.288a18.315 18.315 0 007.213 1.506c5.495 0 9.273-2.722 9.273-7.45-.027-7.873-10.092-6.473-10.092-9.432z'/%3E%3C/g%3E%3C/svg%3E"); /* stylelint-disable-line function-url-quotes */
+	background-size: 380px;
+}
+
+.wc-connect-stripe-help {
+	margin-top: 10px;
+}
+
+.form-wc-wc_cpsw_connect_btn .st_connect_mn_dv {
+	margin-top: 14px;
+}
+
+.form-wc-wc_cpsw_test_button fieldset {
+	margin: 20px 0 20px 0;
+}
+
+.form-wc-wc_cpsw_test_button a {
+	border: 1px solid rgb(103, 114, 229);
+}
+
+.form-wc-wc_cpsw_test_button a,
+.form-wc-wc_cpsw_test_button a > span {
+	padding: 5px;
+	color: rgb(103, 114, 229);
+	font-weight: 500;
+	background: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.stipe-connect-active {
+	color: #008000;
+	font-weight: 500;
+}
+
+.form-wc-wc_stripe_acc_keys fieldset {
+	margin-top: 10px !important;
+}
+
+.cpsw_connect_mn_btn,
+.cpsw_connect_hide_btn {
+	text-decoration: udnerline;
+	color: inherit;
+	font-size: 12px;
+}
+
+.account_status .cpsw_connect_mn_btn,
+.account_status .cpsw_connect_hide_btn {
+	color: #2271b1;
+	font-size: 14px;
+}
+
+#wpfooter {
+	display: block !important;
+}
+
+.form-wc-account_id .cpsw_connect_hide_btn {
+	display: none;
+}

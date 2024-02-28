@@ -1,0 +1,40 @@
+.cartflows-dashboard-widget-finish-setup .progress-wrapper {
+	border: 1px solid #757575;
+	border-radius: 16px;
+	font-size: 0.9em;
+	padding: 2px 8px 2px 8px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.cartflows-dashboard-widget-finish-setup .progress-wrapper span {
+	position: relative;
+	top: -3px;
+	color: #757575;
+}
+
+.cartflows-dashboard-widget-finish-setup .description {
+	display: flex;
+	overflow: hidden;
+	width: 100%;
+	justify-content: space-evenly;
+}
+.cartflows-dashboard-widget-finish-setup .description .wcf-left-column {
+	width: 70%;
+}
+.cartflows-dashboard-widget-finish-setup .description .wcf-right-column {
+	width: 30%;
+}
+.cartflows-dashboard-widget-finish-setup .description img {
+	width: 70%;
+}
+.cartflows-dashboard-widget-finish-setup .circle-progress {
+	margin-top: 1px;
+	margin-left: -3px;
+}
+.cartflows-dashboard-widget-finish-setup .circle-progress circle {
+	stroke: #f0f0f0;
+	stroke-width: 1px;
+}
+.cartflows-dashboard-widget-finish-setup .circle-progress .bar {
+	stroke: #949494;
+}

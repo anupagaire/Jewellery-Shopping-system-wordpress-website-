@@ -1,0 +1,513 @@
+.cartflows-bb__next-step-creative-button-wrap a,
+.cartflows-bb__next-step-creative-button-wrap a:visited {
+	padding: 12px 24px;
+}
+a.cartflows-bb__next-step-button.cartflows-bb__next-step-creative-button.cartflows-bb__next-step-creative-gradient-btn {
+	border: none;
+}
+
+.cartflows-bb__next-step-button-wrap a,
+.cartflows-bb__next-step-button-wrap a:visited {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+	text-shadow: none;
+}
+.cartflows-bb__next-step-button-wrap a *,
+.cartflows-bb__next-step-button-wrap a:visited * {
+	/*color: #333;*/
+}
+.fl-builder-content .cartflows-bb__next-step-button:hover {
+	text-decoration: none;
+}
+
+.fl-builder-content .cartflows-bb__next-step-button-width-full .cartflows-bb__next-step-button {
+	display: block;
+	text-align: center;
+}
+
+.cartflows-bb__next-step-button-width-custom .cartflows-bb__next-step-button {
+	display: inline-block;
+	text-align: center;
+	max-width: 100%;
+}
+.fl-builder-content .cartflows-bb__next-step-button-left {
+	text-align: left;
+}
+.fl-builder-content .cartflows-bb__next-step-button-center {
+	text-align: center;
+}
+.fl-builder-content .cartflows-bb__next-step-button-right {
+	text-align: right;
+}
+
+.fl-builder-content .cartflows-bb__next-step-button i,
+.fl-builder-content .cartflows-bb__next-step-button i::before {
+	font-size: 1em;
+	height: 1em;
+	line-height: 1em;
+	width: 1em;
+}
+
+.cartflows-bb__next-step-button .cartflows-bb__next-step-button-icon-after {
+	margin-left: 8px;
+	margin-right: 0;
+}
+.cartflows-bb__next-step-button .cartflows-bb__next-step-button-icon-before {
+	margin-left: 0;
+	margin-right: 8px;
+}
+.cartflows-bb__next-step-button .cartflows-bb__next-step-button-icon-no-text {
+	margin: 0;
+}
+.cartflows-bb__next-step-button-has-icon .cartflows-bb__next-step-button-text {
+	vertical-align: middle;
+}
+
+/* Creative Button
+___________________________________________________________________________*/
+
+.cartflows-bb__next-step-creative-button-wrap a,
+.cartflows-bb__next-step-creative-button-wrap a:visited {
+	background: #fafafa;
+	border: 1px solid #ccc;
+	color: #333;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	overflow: hidden;
+	text-decoration: none;
+	text-shadow: none;
+	box-shadow: none;
+	position: relative;
+	-webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	-ms-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+
+.cartflows-bb__next-step-creative-button-wrap a:focus {
+	text-decoration: none;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+.cartflows-bb__next-step-creative-button-wrap a .cartflows-bb__next-step-creative-button-text,
+.cartflows-bb__next-step-creative-button-wrap a .cartflows-bb__next-step-creative-button-icon,
+.cartflows-bb__next-step-creative-button-wrap a:visited .cartflows-bb__next-step-creative-button-text,
+.cartflows-bb__next-step-creative-button-wrap a:visited .cartflows-bb__next-step-creative-button-icon {
+	-webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	-ms-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+
+.cartflows-bb__next-step-creative-button-wrap a:hover {
+	text-decoration: none;
+}
+
+.cartflows-bb__next-step-creative-button-wrap .cartflows-bb__next-step-creative-button-width-full .cartflows-bb__next-step-creative-button {
+	display: block;
+	text-align: center;
+}
+.cartflows-bb__next-step-creative-button-wrap .cartflows-bb__next-step-creative-button-width-custom .cartflows-bb__next-step-creative-button {
+	display: inline-block;
+	text-align: center;
+	max-width: 100%;
+}
+.cartflows-bb__next-step-creative-button-wrap .cartflows-bb__next-step-creative-button-left {
+	text-align: left;
+}
+.cartflows-bb__next-step-creative-button-wrap .cartflows-bb__next-step-creative-button-center {
+	text-align: center;
+}
+.cartflows-bb__next-step-creative-button-wrap .cartflows-bb__next-step-creative-button-right {
+	text-align: right;
+}
+.cartflows-bb__next-step-creative-button-wrap .cartflows-bb__next-step-creative-button i {
+	font-size: 1.3em;
+	height: auto;
+	vertical-align: middle;
+	width: auto;
+}
+
+.cartflows-bb__next-step-creative-button-wrap .cartflows-bb__next-step-creative-button .cartflows-bb__next-step-creative-button-icon-after {
+	margin-left: 8px;
+	margin-right: 0;
+}
+.cartflows-bb__next-step-creative-button-wrap .cartflows-bb__next-step-creative-button .cartflows-bb__next-step-creative-button-icon-before {
+	margin-right: 8px;
+	margin-left: 0;
+}
+.cartflows-bb__next-step-creative-button-wrap.cartflows-bb__next-step-creative-button-icon-no-text .cartflows-bb__next-step-creative-button i {
+	margin: 0;
+}
+
+.cartflows-bb__next-step-creative-button-wrap .cartflows-bb__next-step-creative-button-has-icon .cartflows-bb__next-step-creative-button-text {
+	vertical-align: middle;
+}
+.cartflows-bb__next-step-creative-button-wrap a,
+.cartflows-bb__next-step-creative-button-wrap a:visited {
+	padding: 12px 24px;
+}
+
+/*  Translate Button styles */
+
+.cartflows-bb__next-step-creative-button.cartflows-bb__next-step-creative-transparent-btn {
+	background: transparent;
+}
+.cartflows-bb__next-step-creative-button.cartflows-bb__next-step-creative-transparent-btn::after {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	-webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	-ms-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+
+/* transparent-fill-top, transparent-fill-bottom  */
+.cartflows-bb__next-step-transparent-fill-top-btn::after,
+.cartflows-bb__next-step-transparent-fill-bottom-btn::after {
+	width: 100%;
+	height: 0;
+	left: 0;
+}
+
+/* transparent-fill-top */
+.cartflows-bb__next-step-transparent-fill-top-btn::after {
+	top: 0;
+}
+/* transparent-fill-bottom */
+.cartflows-bb__next-step-transparent-fill-bottom-btn::after {
+	bottom: 0;
+}
+
+/* transparent-fill-left, transparent-fill-right */
+.cartflows-bb__next-step-transparent-fill-left-btn::after,
+.cartflows-bb__next-step-transparent-fill-right-btn::after {
+	width: 0;
+	height: 100%;
+	top: 0;
+}
+
+/* transparent-fill-left */
+.cartflows-bb__next-step-transparent-fill-left-btn::after {
+	left: 0;
+}
+/* transparent-fill-right */
+.cartflows-bb__next-step-transparent-fill-right-btn::after {
+	right: 0;
+}
+
+/* transparent-fill-center */
+.cartflows-bb__next-step-transparent-fill-center-btn::after {
+	width: 0;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateX( -50% ) translateY( -50% );
+	-moz-transform: translateX( -50% ) translateY( -50% );
+	-ms-transform: translateX( -50% ) translateY( -50% );
+	-o-transform: translateX( -50% ) translateY( -50% );
+	transform: translateX( -50% ) translateY( -50% );
+}
+
+/*  transparent-fill-diagonal, transparent-fill-horizontal  */
+.cartflows-bb__next-step-transparent-fill-diagonal-btn::after,
+.cartflows-bb__next-step-transparent-fill-horizontal-btn::after {
+	width: 100%;
+	height: 0;
+	top: 50%;
+	left: 50%;
+}
+
+/*  transparent-fill-diagonal */
+.cartflows-bb__next-step-transparent-fill-diagonal-btn {
+	overflow: hidden;
+}
+.cartflows-bb__next-step-transparent-fill-diagonal-btn::after {
+	-webkit-transform: translateX( -50% ) translateY( -50% ) rotate( 45deg );
+	-moz-transform: translateX( -50% ) translateY( -50% ) rotate( 45deg );
+	-ms-transform: translateX( -50% ) translateY( -50% ) rotate( 45deg );
+	-o-transform: translateX( -50% ) translateY( -50% ) rotate( 45deg );
+	transform: translateX( -50% ) translateY( -50% ) rotate( 45deg );
+}
+/* transparent-fill-horizontal */
+.cartflows-bb__next-step-transparent-fill-horizontal-btn::after {
+	-webkit-transform: translateX( -50% ) translateY( -50% );
+	-moz-transform: translateX( -50% ) translateY( -50% );
+	-ms-transform: translateX( -50% ) translateY( -50% );
+	-o-transform: translateX( -50% ) translateY( -50% );
+	transform: translateX( -50% ) translateY( -50% );
+}
+
+/*  3D Button styles */
+.cartflows-bb__next-step-creative-button-wrap .cartflows-bb__next-step-creative-threed-btn.cartflows-bb__next-step-threed_down-btn,
+.cartflows-bb__next-step-creative-button-wrap .cartflows-bb__next-step-creative-threed-btn.cartflows-bb__next-step-threed_up-btn,
+.cartflows-bb__next-step-creative-button-wrap .cartflows-bb__next-step-creative-threed-btn.cartflows-bb__next-step-threed_left-btn,
+.cartflows-bb__next-step-creative-button-wrap .cartflows-bb__next-step-creative-threed-btn.cartflows-bb__next-step-threed_right-btn {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.perspective {
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	perspective: 800px;
+	margin: 0;
+}
+.cartflows-bb__next-step-creative-button.cartflows-bb__next-step-creative-threed-btn::after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+
+.cartflows-bb__next-step-creative-button.cartflows-bb__next-step-creative-threed-btn {
+	/*display: block;*/
+	outline: 1px solid transparent;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+/*  3D Button styles --- Animate to top */
+.cartflows-bb__next-step-creative-threed-btn.cartflows-bb__next-step-animate_top-btn::after {
+	height: 40%;
+	left: 0;
+	top: -40%;
+	width: 100%;
+	-webkit-transform-origin: 0% 100%;
+	-moz-transform-origin: 0% 100%;
+	transform-origin: 0% 100%;
+	-webkit-transform: rotateX( 90deg );
+	-moz-transform: rotateX( 90deg );
+	transform: rotateX( 90deg );
+}
+
+/*  3D Button styles --- Animate to bottom */
+.cartflows-bb__next-step-creative-threed-btn.cartflows-bb__next-step-animate_bottom-btn::after {
+	width: 100%;
+	height: 40%;
+	left: 0;
+	top: 100%;
+
+	-webkit-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	transform-origin: 0% 0%;
+
+	-webkit-transform: rotateX( -90deg );
+	-moz-transform: rotateX( -90deg );
+	-ms-transform: rotateX( -90deg );
+	transform: rotateX( -90deg );
+}
+
+/*  3D Button styles --- Animate to Left */
+.cartflows-bb__next-step-creative-threed-btn.cartflows-bb__next-step-animate_left-btn::after {
+	width: 20%;
+	height: 100%;
+	left: -20%;
+	top: 0;
+	-webkit-transform-origin: 100% 0%;
+	-moz-transform-origin: 100% 0%;
+	-ms-transform-origin: 100% 0%;
+	transform-origin: 100% 0%;
+
+	-webkit-transform: rotateY( -60deg );
+	-moz-transform: rotateY( -60deg );
+	-ms-transform: rotateY( -60deg );
+	transform: rotateY( -60deg );
+}
+
+/*  3D Button styles --- Animate to Right */
+.cartflows-bb__next-step-creative-threed-btn.cartflows-bb__next-step-animate_right-btn::after {
+	width: 20%;
+	height: 100%;
+	left: 104%;
+	top: 0;
+	-webkit-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	transform-origin: 0% 0%;
+
+	-webkit-transform: rotateY( 120deg );
+	-moz-transform: rotateY( 120deg );
+	-ms-transform: rotateY( 120deg );
+	transform: rotateY( 120deg );
+}
+
+/* Animate Top */
+.cartflows-bb__next-step-animate_top-btn:hover {
+	-webkit-transform: rotateX( -15deg );
+	-moz-transform: rotateX( -15deg );
+	-ms-transform: rotateX( -15deg );
+	-o-transform: rotateX( -15deg );
+	transform: rotateX( -15deg );
+}
+
+/* Animate Bottom */
+.cartflows-bb__next-step-animate_bottom-btn:hover {
+	-webkit-transform: rotateX( 15deg );
+	-moz-transform: rotateX( 15deg );
+	-ms-transform: rotateX( 15deg );
+	-o-transform: rotateX( 15deg );
+	transform: rotateX( 15deg );
+}
+
+/* Animate Left */
+.cartflows-bb__next-step-animate_left-btn:hover {
+	-webkit-transform: rotateY( 6deg );
+	-moz-transform: rotateY( 6deg );
+	-ms-transform: rotateY( 6deg );
+	-o-transform: rotateY( 6deg );
+	transform: rotateY( 6deg );
+}
+
+/* Animate Right */
+.cartflows-bb__next-step-animate_right-btn:hover {
+	-webkit-transform: rotateY( -6deg );
+	-moz-transform: rotateY( -6deg );
+	-ms-transform: rotateY( -6deg );
+	-o-transform: rotateY( -6deg );
+	transform: rotateY( -6deg );
+}
+
+/*  Flat Button styles  */
+
+/*  Common Classes  */
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_to_right-btn,
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_to_left-btn,
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_from_top-btn,
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_from_bottom-btn {
+	overflow: hidden;
+	position: relative;
+}
+
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_to_right-btn i,
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_to_left-btn i,
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_from_top-btn i,
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_from_bottom-btn i {
+	bottom: 0;
+	height: 100%;
+	margin: 0;
+	opacity: 1;
+	position: absolute;
+	right: 0;
+	width: 100%;
+	-webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	transition: all 200ms linear;
+	-webkit-transform: translateY( 0 );
+	-moz-transform: translateY( 0 );
+	-o-transform: translateY( 0 );
+	-ms-transform: translateY( 0 );
+	transform: translateY( 0 );
+}
+
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_to_right-btn .cartflows-bb__next-step-button-text,
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_to_left-btn .cartflows-bb__next-step-button-text,
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_from_top-btn .cartflows-bb__next-step-button-text,
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_from_bottom-btn .cartflows-bb__next-step-button-text {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	-ms-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	transition: all 200ms linear;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/*  Making Icon position center  */
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_to_right-btn i::before,
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_to_left-btn i::before,
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_from_top-btn i::before,
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_from_bottom-btn i::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateX( -50% ) translateY( -50% );
+	-moz-transform: translateX( -50% ) translateY( -50% );
+	-o-transform: translateX( -50% ) translateY( -50% );
+	-ms-transform: translateX( -50% ) translateY( -50% );
+	transform: translateX( -50% ) translateY( -50% );
+}
+
+/*  Common Hover Classes */
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_to_right-btn:hover i,
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_to_left-btn:hover i {
+	left: 0;
+}
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_from_top-btn:hover i,
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_from_bottom-btn:hover i {
+	top: 0;
+}
+
+/*  Animate Icon to the right */
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_to_right-btn i {
+	top: 0;
+	left: -100%;
+}
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_to_right-btn:hover .cartflows-bb__next-step-button-text {
+	-webkit-transform: translateX( 200% );
+	-moz-transform: translateX( 200% );
+	-ms-transform: translateX( 200% );
+	-o-transform: translateX( 200% );
+	transform: translateX( 200% );
+}
+
+/*  Animate Icon to the left */
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_to_left-btn i {
+	top: 0;
+	left: 100%;
+}
+
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_to_left-btn:hover .cartflows-bb__next-step-button-text {
+	-webkit-transform: translateX( -200% );
+	-moz-transform: translateX( -200% );
+	-ms-transform: translateX( -200% );
+	-o-transform: translateX( -200% );
+	transform: translateX( -200% );
+}
+
+/*  Animate Icon From the Top */
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_from_top-btn i {
+	top: -100%;
+	left: 0;
+}
+
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_from_top-btn:hover .cartflows-bb__next-step-button-text {
+	-webkit-transform: translateY( 400px );
+	-moz-transform: translateY( 400px );
+	-ms-transform: translateY( 400px );
+	-o-transform: translateY( 400px );
+	transform: translateY( 400px );
+}
+
+/*  Animate Icon From the Bottom */
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_from_bottom-btn i {
+	top: 100%;
+	left: 0;
+}
+
+.cartflows-bb__next-step-creative-flat-btn.cartflows-bb__next-step-animate_from_bottom-btn:hover .cartflows-bb__next-step-button-text {
+	-webkit-transform: translateY( -400px );
+	-moz-transform: translateY( -400px );
+	-ms-transform: translateY( -400px );
+	-o-transform: translateY( -400px );
+	transform: translateY( -400px );
+}

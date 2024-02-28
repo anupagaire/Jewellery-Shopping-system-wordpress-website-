@@ -1,0 +1,156 @@
+/* General styles. */
+#outlook a {
+	padding: 0;
+}
+
+.ExternalClass {
+	width: 100%;
+}
+
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+	line-height: 100%;
+}
+
+#backgroundTable {
+	margin: 0;
+	padding: 0;
+	width: 100% !important;
+	line-height: 100% !important;
+}
+
+/* Prevent blue links in subject. */
+.stats-subject-heading a {
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+/* Mobile styles. */
+
+@media only screen and (max-width: 599px) {
+	table.body .container {
+		margin: 0 auto !important;
+		width: auto !important;
+		max-width: 600px !important;
+	}
+
+	.header img {
+		width: 240px !important;
+		height: auto !important;
+	}
+
+	.content {
+		padding: 30px !important;
+	}
+
+	.main-heading {
+		font-size: 16px !important;
+		line-height: 20px !important;
+	}
+
+	.main-description {
+		margin-bottom: 20px !important;
+	}
+
+	.spacer-40 {
+		line-height: 20px !important;
+		height: 20px !important;
+	}
+
+	.upgrade-heading {
+		font-size: 18px !important;
+		line-height: 22px !important;
+	}
+
+	.upgrade-text {
+		font-size: 14px !important;
+		line-height: 20px !important;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.content {
+		padding: 20px !important;
+	}
+}
+
+/* Dark Mode. */
+
+@media (prefers-color-scheme: dark) {
+	.dark-body-bg {
+		background: #1C1E20 !important;
+	}
+
+	.dark-content-bg {
+		background: #23282C !important;
+	}
+
+	.dark-bg {
+		background: #202326 !important;
+	}
+
+	.dark-white-color {
+		color: #ffffff !important;
+	}
+
+	.dark-img {
+		display: block !important;
+		width: auto !important;
+		overflow: visible !important;
+		float: none !important;
+		max-height: inherit !important;
+		max-width: inherit !important;
+		line-height: auto !important;
+		margin-top: 0px !important;
+		visibility: inherit !important;
+	}
+
+	.light-img {
+		display: none;
+		display: none !important;
+	}
+
+	.upgrade-text,
+	.footer {
+		color: #8C8F94 !important;
+	}
+}
+
+/* Dark Mode Outlook. */
+
+[data-ogsc] .dark-body-bg {
+	background: #1C1E20 !important;
+}
+
+[data-ogsc] .dark-content-bg {
+	background: #23282C !important;
+}
+
+[data-ogsc] .dark-bg {
+	background: #202326 !important;
+}
+
+[data-ogsc] .dark-white-color {
+	color: #ffffff !important;
+}
+
+[data-ogsc] .dark-img {
+	display: block !important;
+	width: auto !important;
+	overflow: visible !important;
+	float: none !important;
+	max-height: inherit !important;
+	max-width: inherit !important;
+	line-height: auto !important;
+	margin-top: 0px !important;
+	visibility: inherit !important;
+}
+
+[data-ogsc] .light-img {
+	display: none;
+	display: none !important;
+}
+
+[data-ogsc] .upgrade-text,
+[data-ogsc] .footer {
+	color: #8C8F94 !important;
+}

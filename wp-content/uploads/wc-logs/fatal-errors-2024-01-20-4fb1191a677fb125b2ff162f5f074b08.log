@@ -1,0 +1,6 @@
+2024-01-20T07:42:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-content\plugins\cartflows\modules\gutenberg\dist\blocks\order-detail-form\class-wcfb-order-detail-form.php on line 8
+
+2024-01-20T07:46:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-includes\Requests\src\Transport\Curl.php on line 205
+
+2024-01-20T07:48:36+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\jewshop\wp-includes\Requests\src\Transport\Curl.php on line 205
+

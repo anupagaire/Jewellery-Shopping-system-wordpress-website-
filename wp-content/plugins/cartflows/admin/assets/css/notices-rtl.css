@@ -1,0 +1,23 @@
+.wcf-notice .wcf-notice-container {
+	display: flex;
+	padding: 10px 0 10px 0;
+}
+
+.wcf-notice .wcf-notice-container img {
+	align-self: center;
+	width: 7%;
+	border-radius: 50%;
+}
+
+.wcf-notice .wcf-notice-container .wcf-notice-message {
+	margin-right: 10px;
+}
+
+.wcf-notice .wcf-notice-container .wcf-notice-heading {
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.wcf-notice .wcf-notice-container .wcf-notice-description {
+	font-size: 14px;
+}

@@ -1,0 +1,25 @@
+/* CSS for Order Details Form module */
+.cartflows-bb__display-order-overview-no .wcf-thankyou-wrap .woocommerce-order ul.order_details,
+.cartflows-bb__display-order-overview-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-thankyou-order-details {
+	display: none;
+}
+
+.cartflows-bb__display-order-details-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-order-details {
+	display: none;
+}
+
+.cartflows-bb__display-shipping-address-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details .woocommerce-column--shipping-address {
+	display: none;
+}
+
+.cartflows-bb__display-billing-address-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details .woocommerce-column--billing-address {
+	display: none;
+}
+
+.cartflows-bb__display-billing-address-no.cartflows-bb__display-shipping-address-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details {
+	display: none;
+}
+
+.cartflows-bb__display-billing-address-no.cartflows-bb__display-shipping-address-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-column--shipping-address {
+	float: left;
+}

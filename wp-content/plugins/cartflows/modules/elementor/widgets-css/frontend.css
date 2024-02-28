@@ -1,0 +1,79 @@
+/* CSS for Next Step Button module */
+.cartflows-elementor__before_title,
+.cartflows-elementor__after_title,
+.cartflows-elementor__next-step-button-title {
+	vertical-align: middle;
+}
+
+.cartflows-elementor__before_title_sub_title {
+	margin-right: 10px;
+}
+
+.cartflows-elementor__after_title_sub_title {
+	margin-left: 10px;
+}
+
+.cartflows-elementor__next-step-inner-wrap {
+	display: inline-flex;
+}
+
+.elementor-widget-next-step-button .cartflows-elementor__next-step-button-sub-title {
+	font-size: 0.9em;
+}
+.cartflows-elementor__next-step-button-icon-wrap svg {
+	height: 1em;
+	width: 1em;
+}
+
+/* CSS for Order Details Form module */
+.cartflows-elementor__display-order-overview-no .wcf-thankyou-wrap .woocommerce-order ul.order_details,
+.cartflows-elementor__display-order-overview-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-thankyou-order-details {
+	display: none;
+}
+
+.cartflows-elementor__display-order-overview-yes .wcf-thankyou-wrap .woocommerce-order ul.order_details,
+.cartflows-elementor__display-order-overview-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-thankyou-order-details {
+	display: block;
+}
+
+.cartflows-elementor__display-order-details-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-order-details {
+	display: none;
+}
+
+.cartflows-elementor__display-order-details-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-order-details {
+	display: block;
+}
+
+.cartflows-elementor__display-shipping-address-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details .woocommerce-column--shipping-address {
+	display: none;
+}
+
+.cartflows-elementor__display-billing-address-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details .woocommerce-column--billing-address {
+	display: none;
+}
+
+.cartflows-elementor__display-billing-address-no.cartflows-elementor__display-shipping-address-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details {
+	display: none;
+}
+
+.cartflows-elementor__display-billing-address-no.cartflows-elementor__display-shipping-address-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details,
+.cartflows-elementor__display-billing-address-yes.cartflows-elementor__display-shipping-address-no .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details,
+.cartflows-elementor__display-billing-address-yes.cartflows-elementor__display-shipping-address-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details,
+.cartflows-elementor__display-billing-address-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details .woocommerce-column--billing-address,
+.cartflows-elementor__display-shipping-address-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-customer-details .woocommerce-column--shipping-address,
+.cartflows-elementor__display-order-details-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-order-details {
+	display: block;
+}
+.cartflows-elementor__display-billing-address-no.cartflows-elementor__display-shipping-address-yes .wcf-thankyou-wrap .woocommerce-order .woocommerce-column--shipping-address {
+	float: left;
+}
+
+/* Checkout Form CSS */
+.wcf-embed-checkout-form-two-step .woocommerce .wcf-embed-checkout-form-nav-btns .wcf-next-button {
+	color: #fff;
+}
+.cartflows-elementor__checkout-form .wcf-embed-checkout-form .woocommerce #order_review button,
+.cartflows-elementor__checkout-form .wcf-embed-checkout-form .woocommerce form.woocommerce-form-login .form-row button,
+.cartflows-elementor__checkout-form .wcf-embed-checkout-form .woocommerce #order_review button.wcf-btn-small {
+	border-width: 0;
+}

@@ -1,0 +1,243 @@
+/*
+* Optin Page CSS for DIVI
+*/
+
+.cartflows-container .et_pb_module .wcf-optin-form,
+.cartflows-container .et_pb_module .wcf-optin-form * {
+	box-sizing: border-box;
+}
+
+.et_pb_module #wcf-optin-form {
+	background: inherit;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.et_pb_module #wcf-optin-form .woocommerce-checkout {
+	display: inline-block;
+	text-align: inherit;
+	width: 100%;
+}
+
+.et_pb_module #wcf-optin-form .woocommerce-checkout .wcf-col2-set {
+	display: block;
+	width: 100%;
+	float: none;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+.et_pb_module #wcf-optin-form .woocommerce .col2-set .col-1,
+.et_pb_module #wcf-optin-form .woocommerce .col2-set .col-2,
+.et_pb_module #wcf-optin-form .woocommerce-checkout .shop_table,
+.et_pb_module #wcf-optin-form .woocommerce-checkout .wcf-qty-options,
+.et_pb_module #wcf-optin-form .woocommerce-checkout #order_review_heading,
+.et_pb_module #wcf-optin-form .woocommerce-checkout #your_products_heading,
+.et_pb_module #wcf-optin-form .woocommerce-checkout #payment,
+.et_pb_module #wcf-optin-form .woocommerce form.checkout_coupon,
+.et_pb_module #wcf-optin-form .woocommerce .wcf-order-wrap {
+	width: 100%;
+}
+
+.et_pb_module #wcf-optin-form .woocommerce .col2-set .col-1,
+.et_pb_module #wcf-optin-form .woocommerce .col2-set .col-2,
+.et_pb_module #wcf-optin-form .woocommerce .wcf-col2-set .wcf-col-1,
+.et_pb_module #wcf-optin-form .woocommerce .wcf-col2-set .wcf-col-2 {
+	float: none;
+	width: 100%;
+	max-width: 100%;
+	padding: 0;
+	border-radius: 0;
+	border: none;
+	border-color: none;
+	margin-bottom: 0;
+}
+
+.et_pb_module #wcf-optin-form .woocommerce-checkout .wcf-col2-set .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper,
+.et_pb_module #wcf-optin-form .woocommerce-checkout .wcf-col2-set .woocommerce-shipping-fields .woocommerce-shipping-fields__field-wrapper,
+.et_pb_module #wcf-optin-form .woocommerce-checkout .wcf-col2-set .woocommerce-additional-fields .woocommerce-additional-fields__field-wrapper {
+	margin: 0 -7px;
+	flex-wrap: wrap;
+	-js-display: flex;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-wrap: wrap;
+}
+
+/* Headings */
+.et_pb_module #wcf-optin-form .woocommerce-checkout #order_review_heading,
+.et_pb_module #wcf-optin-form .woocommerce-checkout #your_products_heading {
+	display: none;
+}
+
+.et_pb_module #wcf-optin-form .woocommerce-additional-fields > h3,
+.et_pb_module #wcf-optin-form .woocommerce-billing-fields > h3,
+.et_pb_module #wcf-optin-form #order_review_heading,
+.et_pb_module #wcf-optin-form .woocommerce #ship-to-different-address {
+	display: none !important;
+}
+/* Headings */
+
+/* Row */
+.et_pb_module #wcf-optin-form .woocommerce form .form-row {
+	display: block;
+	margin-bottom: 1.1em;
+	padding: 3px 7px;
+	position: relative;
+}
+.et_pb_module #wcf-optin-form .woocommerce-checkout #payment .form-row {
+	margin: 0;
+	padding: 0;
+}
+
+.et_pb_module #wcf-optin-form .woocommerce form .form-row-first,
+.et_pb_module #wcf-optin-form .woocommerce-page form .form-row-first {
+	float: left;
+	clear: left;
+}
+
+.et_pb_module #wcf-optin-form .woocommerce form .form-row-last,
+.et_pb_module #wcf-optin-form .woocommerce-page form .form-row-last {
+	float: right;
+	clear: right;
+}
+
+.et_pb_module #wcf-optin-form .woocommerce form .form-row-first,
+.et_pb_module #wcf-optin-form .woocommerce form .form-row-last {
+	width: 50%;
+	display: block;
+}
+
+.et_pb_module #wcf-optin-form .woocommerce form .form-row-wide,
+.et_pb_module #wcf-optin-form .woocommerce-page form .form-row-wide {
+	width: 100%;
+}
+/* Row */
+
+/* Label */
+.et_pb_module #wcf-optin-form .woocommerce .woocommerce-billing-fields label,
+.et_pb_module #wcf-optin-form .woocommerce .woocommerce-shipping-fields label {
+	display: inherit;
+}
+
+.et_pb_module #wcf-optin-form .woocommerce form.woocommerce-form-login .form-row label,
+.et_pb_module #wcf-optin-form .woocommerce-checkout .form-row label {
+	font-size: 13px;
+	line-height: 1em;
+	letter-spacing: 0.3px;
+	font-family: inherit;
+	font-weight: inherit;
+	margin-bottom: 8px;
+}
+
+/* Label */
+
+/* Fields */
+.et_pb_module #wcf-optin-form .woocommerce form .form-row input.input-text,
+.et_pb_module #wcf-optin-form .woocommerce form .form-row textarea,
+.et_pb_module #wcf-optin-form .woocommerce form .form-row select,
+.et_pb_module #wcf-optin-form .woocommerce #order_review .input-text {
+	display: block;
+	width: 100%;
+	min-height: 34px;
+	padding: 11px 12px;
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: 14px;
+	line-height: 1.42857143 !important;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid;
+	border-color: #d4d4d4;
+	border-radius: 3px;
+	box-shadow: none;
+	height: auto;
+}
+
+/*.et_pb_module #wcf-optin-form input[type="text"],
+.et_pb_module #wcf-optin-form input[type="email"],
+.et_pb_module #wcf-optin-form input[type="password"],
+.et_pb_module #wcf-optin-form input[type="tel"],
+.et_pb_module #wcf-optin-form textarea,
+.et_pb_module #wcf-optin-form select {
+    display: block;
+    width: 100%;
+    min-height: 40px;
+    padding: 11px 12px;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d4d4d4;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}*/
+
+/* Fields */
+
+/* Checkboxes*/
+
+.et_pb_module #wcf-optin-form .woocommerce .woocommerce-terms-and-conditions-wrapper {
+	display: none;
+}
+
+/* Checkboxes*/
+
+/* Buttons */
+.et_pb_module #wcf-optin-form #order_review {
+	padding: 0;
+	width: 100%;
+}
+
+.et_pb_module #wcf-optin-form .woocommerce-checkout #payment {
+	background: unset;
+	border-radius: 0;
+}
+
+.et_pb_module #wcf-optin-form .woocommerce #order_review #payment button {
+	float: none;
+	margin: 0 auto;
+	display: block;
+}
+
+.et_pb_module #wcf-optin-form .woocommerce #order_review button {
+	border: 1px solid;
+	border-color: #f16334;
+	background-color: #f16334;
+	font-family: inherit;
+	font-weight: inherit;
+	letter-spacing: 0.5px;
+	width: 100%;
+	padding: 16px 24px;
+	font-size: 16px;
+	line-height: 1.5;
+	border-radius: 3px;
+	color: #fff;
+}
+/* Buttons
+
+
+/*
+* Media CSS.
+*/
+
+@media only screen and ( max-width: 768px ) {
+	.et_pb_module #wcf-optin-form .woocommerce form .form-row-first,
+	.et_pb_module #wcf-optin-form .woocommerce form .form-row-last,
+	.et_pb_module #wcf-optin-form .woocommerce form .form-row-wide,
+	.et_pb_module #wcf-optin-form .woocommerce-page form .form-row-first,
+	.et_pb_module #wcf-optin-form .woocommerce-page form .form-row-last,
+	.et_pb_module #wcf-optin-form .woocommerce-page form .form-row-wide {
+		width: 100%;
+	}
+}
+
+/*
+* Media CSS.
+*/

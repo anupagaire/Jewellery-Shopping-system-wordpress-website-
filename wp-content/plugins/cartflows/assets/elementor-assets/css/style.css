@@ -1,0 +1,37 @@
+@font-face {
+	font-family: wcf-el;
+	src: url( "../fonts/wcf-el.eot?hbxe64" );
+	src: url( "../fonts/wcf-el.eot?hbxe64#iefix" ) format( "embedded-opentype" ), url( "../fonts/wcf-el.ttf?hbxe64" ) format( "truetype" ), url( "../fonts/wcf-el.woff?hbxe64" ) format( "woff" ), url( "../fonts/wcf-el.svg?hbxe64#wcf-el" ) format( "svg" );
+	font-weight: 400;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="wcf-el-icon-"],
+[class*=" wcf-el-icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: wcf-el !important;
+	speak: never;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wcf-el-icon-checkout-form::before {
+	content: "\e900";
+}
+.wcf-el-icon-next-step::before {
+	content: "\e901";
+}
+.wcf-el-icon-optin-form::before {
+	content: "\e902";
+}
+.wcf-el-icon-order-detail::before {
+	content: "\e903";
+}

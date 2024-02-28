@@ -1,0 +1,125 @@
+.wcf-template-loading-skeleton.is-placeholder {
+	background-color: #f7f7f7;
+
+	.wcf-loading-nav-menu {
+		display: flex;
+		width: 100%;
+		/* height: 50px; */
+		padding: 20px;
+		justify-content: space-between;
+
+		.wcf-loading-logo {
+			width: 13%;
+			/* height: 10%; */
+			background-color: #ddd;
+			padding: 2%;
+		}
+
+		.wcf-loading-nav__items {
+			display: flex;
+			justify-content: space-between;
+			width: 40%;
+			align-items: center;
+
+			span {
+				background-color: #ddd;
+				padding: 3% 10%;
+			}
+		}
+	}
+
+	.wcf-loading-container {
+		padding: 1% 2%;
+	}
+
+	.wcf-loading-content {
+		display: flex;
+		width: 100%;
+		padding: 2%;
+		justify-content: space-between;
+		flex-direction: column;
+
+		.wcf-content-row {
+			margin-bottom: 25px;
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			padding: 2% 0;
+
+			.wcf-left-content,
+			.wcf-right-content {
+				width: 48%;
+				display: block;
+
+				.wcf-row {
+					width: 100%;
+					background-color: #ddd;
+					padding: 2%;
+					display: block;
+					margin: 0 0 15px 0;
+				}
+
+				.wcf-loading-heading-block {
+					padding: 6%;
+					background-color: #ddd;
+					height: 20%;
+					width: 100%;
+					display: block;
+					margin: 0 0 20px 0;
+				}
+
+				.wcf-loading-image-block {
+					display: block;
+					padding: 2%;
+					background-color: #ddd;
+					height: 300px;
+					width: 100%;
+				}
+
+				.wcf-loading-button-block {
+					padding: 2%;
+					background-color: #ddd;
+					height: 15%;
+					width: 60%;
+					display: block;
+					margin: 0;
+				}
+			}
+
+			.col-3 {
+				margin-right: 30px;
+			}
+		}
+	}
+
+	.wcf-skeleton--wave {
+		overflow: hidden;
+		position: relative;
+
+		&::after {
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			content: "";
+			position: absolute;
+			animation: wcf-skeleton-keyframes-wave 1.6s linear 0.5s infinite;
+			transform: translateX( -100% );
+			background: linear-gradient( 90deg, transparent, rgba( 0, 0, 0, 0.12 ), transparent );
+		}
+	}
+}
+
+@keyframes wcf-skeleton-keyframes-wave {
+	0% {
+		transform: translateX( -100% );
+	}
+
+	60% {
+		transform: translateX( 100% );
+	}
+
+	100% {
+		transform: translateX( 100% );
+	}
+}

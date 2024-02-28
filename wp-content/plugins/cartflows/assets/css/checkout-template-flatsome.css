@@ -1,0 +1,134 @@
+/**
+* *************************
+* This css is loaded when when the flatsome theme is enabled.
+* Just to add correct the layout of the page.
+* *************************
+*/
+
+/* Basic */
+
+.absolute-footer,
+html {
+	background-color: unset;
+	font-family: inherit;
+}
+
+body {
+	color: #404040;
+	font-family: inherit;
+	line-height: 1.5;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+.woocommerce-billing-fields {
+	padding-top: 0;
+	border-top: unset;
+}
+
+.button,
+button,
+input,
+textarea,
+select,
+fieldset {
+	margin-bottom: inherit;
+}
+
+.wcf-embed-checkout-form .woocommerce form .form-row input.input-text,
+.wcf-embed-checkout-form .woocommerce form .form-row textarea,
+.wcf-embed-checkout-form .woocommerce form .form-row select,
+.wcf-embed-checkout-form .woocommerce #order_review .input-text {
+	height: auto;
+}
+
+#ship-to-different-address label {
+	font-weight: inherit;
+}
+
+.shop_table tfoot th,
+th,
+td {
+	color: inherit;
+	font-size: inherit;
+	letter-spacing: inherit;
+	text-transform: inherit;
+	text-align: inherit;
+}
+span.amount {
+	white-space: inherit;
+	color: inherit;
+	font-weight: inherit;
+}
+
+td.product-total,
+.shop_table tfoot tr td,
+.cart_totals tbody tr td,
+.shop_table thead tr th:last-of-type,
+.shop_table tr td:last-of-type {
+	text-align: inherit;
+}
+
+.shipping__table--multiple th,
+.shipping__table--multiple td {
+	display: table-cell;
+	width: 50%;
+}
+
+.shipping__table--multiple {
+	display: block;
+	text-align: inherit;
+}
+
+tr.shipping input:checked + label {
+	font-weight: 400;
+}
+
+.widget_shopping_cart_content .blockUI.blockOverlay::before,
+.woocommerce-checkout-review-order .blockUI.blockOverlay::before {
+	border-top: inherit !important;
+	border-right: inherit !important;
+	border-bottom: inherit !important;
+	border-left: inherit !important;
+}
+
+label,
+legend {
+	color: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+.payment_methods p {
+	font-size: inherit;
+}
+
+.payment_methods li + li {
+	padding-top: 0;
+	border-top: unset;
+}
+
+.wcf-embed-checkout-form .woocommerce-privacy-policy-text {
+	font-size: inherit;
+}
+
+.wcf-embed-checkout-form .woocommerce-privacy-policy-text p {
+	color: #444;
+	font-family: inherit;
+	font-weight: inherit;
+	margin-top: 1rem;
+}
+
+.form-row .select2-container {
+	margin-bottom: inherit;
+}
+
+@media only screen and ( max-width: 768px ) {
+	#billing_address_2_field > label {
+		opacity: 1;
+		overflow: visible;
+	}
+}
